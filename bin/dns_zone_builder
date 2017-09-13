@@ -34,7 +34,7 @@ file written in INI format.
 
 =head1 SYNOPSIS
 
- perl dnsgentool.pl [OPTIONS]
+ dns_zone_builder [OPTIONS]
 
  Script options:
  -v|--verbose      Verbose script execution
