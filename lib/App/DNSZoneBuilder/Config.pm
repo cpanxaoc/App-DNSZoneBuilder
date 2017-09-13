@@ -1,6 +1,3 @@
-###############################
-# App::DNSZoneBuilder::Config #
-###############################
 package App::DNSZoneBuilder::Config;
 use strict;
 use warnings;
@@ -136,9 +133,10 @@ sub get_args {
 } # get_args
 
 
-=head1 App::DNSZoneBuilder::Config
+=head1 NAME
 
-An object used for storing configuration data.
+L<App::DNSZoneBuilder::Config> - An object used for storing configuration
+data.
 
 =head2 METHODS
 
@@ -162,6 +160,16 @@ L<App::DNSZoneBuilder::Config> object, or C<undef> otherwise.
 
 Returns a hash containing the parsed script arguments.
 
+=head1 BUGS
+
+Please report any bugs or feature requests to...
+
+=head1 SUPPORT
+
+You can find documentation for this module with the perldoc command.
+
+   perldoc App::DNSZoneBuilder::Config
+
 =head1 AUTHOR
 
 Brian Manning <cpan at xaoc dot org>
@@ -169,6 +177,9 @@ Brian Manning <cpan at xaoc dot org>
 =head1 COPYRIGHT AND LICENSE
 
 Copyright (c) 2010, 2017 by Brian Manning
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
 
 =cut
 
