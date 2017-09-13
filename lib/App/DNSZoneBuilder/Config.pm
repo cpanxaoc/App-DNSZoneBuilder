@@ -1,7 +1,7 @@
-######################
-# DNSZoneGen::Config #
-######################
-package DNSZoneGen::Config;
+###############################
+# App::DNSZoneBuilder::Config #
+###############################
+package App::DNSZoneBuilder::Config;
 use strict;
 use warnings;
 use Getopt::Long;
@@ -136,7 +136,7 @@ sub get_args {
 } # get_args
 
 
-=head1 DNSZoneGen::Config
+=head1 App::DNSZoneBuilder::Config
 
 An object used for storing configuration data.
 
@@ -144,19 +144,19 @@ An object used for storing configuration data.
 
 =head3 new( )
 
-Creates the L<DNSZoneGen::Config> object, and parses out options using
+Creates the L<App::DNSZoneBuilder::Config> object, and parses out options using
 L<Getopt::Long>.
 
 =head3 get($key)
 
 Returns the scalar value of the key passed in as C<key>, or C<undef> if the
-key does not exist in the L<DNSZoneGen::Config> object.
+key does not exist in the L<App::DNSZoneBuilder::Config> object.
 
 =head3 set( key => $value )
 
-Sets in the L<DNSZoneGen::Config> object the key/value pair passed in as
-arguments.  Returns the old value if the key already existed in the
-L<DNSZoneGen::Config> object, or C<undef> otherwise.
+Sets in the L<App::DNSZoneBuilder::Config> object the key/value pair passed in
+as arguments.  Returns the old value if the key already existed in the
+L<App::DNSZoneBuilder::Config> object, or C<undef> otherwise.
 
 =head3 get_args( )
 
